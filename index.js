@@ -16,7 +16,7 @@ const app = express();
 // CORS (Ensure proper setup)
 app.use(cors({
     credentials: true,
-    origin: ["http://localhost:3000"] // Use HTTP instead of HTTPS
+    origin: [`${process.env.CLIENT}`] // Use HTTP instead of HTTPS
 }));
 
 app.use(express.json());
