@@ -28,6 +28,10 @@ app.use('/api', Routes);
 app.use(notFound);
 app.use(errorHandler);
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the API');
+});
+
 // Connect to MongoDB
 connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
