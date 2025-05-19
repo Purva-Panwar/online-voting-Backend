@@ -9,5 +9,4 @@ const candidateSchema = new Schema({
 })
 
 
-
 module.exports = model("Candidae", candidateSchema)
