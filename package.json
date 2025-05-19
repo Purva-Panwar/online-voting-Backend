@@ -2,7 +2,6 @@
   "name": "vote-backend",
   "version": "1.0.0",
   "main": "index.js",
-  
   "scripts": {
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.2",
-    "registry": "http://localhost:5000",
+    "proxy": "http://localhost:5000",
     "cloudinary": "^2.5.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -26,5 +25,14 @@
     "uid": "^2.0.2",
     "uuid": "^11.1.0"
   },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purva-Panwar/online-voting-Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Purva-Panwar/online-voting-Backend/issues"
+  },
+  "homepage": "https://github.com/Purva-Panwar/online-voting-Backend#readme",
   "description": ""
 }
